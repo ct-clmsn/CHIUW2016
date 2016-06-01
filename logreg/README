@@ -1,2 +1,15 @@
+To use:
+
 untar data.tar.bz2
 run RUNCHPLDEMO.sh and RUNPYDEMO.sh
+
+The Python implementation performs a shuffle
+over the training samples prior to running
+the training algorithm.
+
+The Chapel implementation does not currently
+perform a shuffle over training samples prior
+to running the training algorithm.
+
+The training sample shuffle is not included 
+in timing the algorithm.
