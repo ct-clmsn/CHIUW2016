@@ -113,7 +113,6 @@ config const trainingdata : string = "mnist_data_training.mtx";
 config const traininglbls : string = "mnist_lbl_training.mtx";
 config const tstdata : string = "mnist_sm_data.mtx";
 config const tstlbls : string = "mnist_sm_lbl.mtx";
-config const mb_sz : int = 10;
 
 proc main() {
 
@@ -122,6 +121,7 @@ proc main() {
 
     const X = mmread(trainingdata); //, mmap_sz=(1024*75));
     const y = mmread(traininglbls); //, mmap_sz=(1024*75));
+    const mb_sz : int = X.domain.high(1);
 
 var t:Timer;
 t.start();
