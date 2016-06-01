@@ -1,0 +1,25 @@
+Octave Collapsed Gibbs Sampler
+
+Source code from this site:
+
+http://www.ics.uci.edu/~asuncion/software/fast.htm
+
+"Distributed collapsed Gibbs sampling for LDA"
+
+References
+  D. Newman, A. Asuncion, P. Smyth, M. Welling.
+    "Distributed Algorithms for Topic Models."
+      JMLR 2009.
+
+  D. Newman, A. Asuncion, P. Smyth, M. Welling.
+    "Distributed Inference for Latent Dirichlet Allocation."
+      NIPS 2007.
+
+To run the code type './RUNDEMO.sh'
+
+The file gibbs.m is an octave implementation of gibbsMex.c
+
+To compile and test gibbsMex.c, type
+  mkoctfile --mex gibbsMex.c
+  swap commented lines 72/73 in 'distributedLDAsampler.m' 
+   
