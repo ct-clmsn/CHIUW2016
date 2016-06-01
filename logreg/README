@@ -13,3 +13,11 @@ to running the training algorithm.
 
 The training sample shuffle is not included 
 in timing the algorithm.
+
+Since the algorithm does not perform iterations
+optimizing an objective function (it's a 
+stochastic algorithm) but instead trains over
+all available examples, holding out 'shuffle'
+should no impact the algorithm's runtime/execution 
+performance. The lack of a shuffle will impact
+statistical performance.
