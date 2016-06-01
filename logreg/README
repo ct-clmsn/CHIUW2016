@@ -1,7 +1,9 @@
-To use:
+To Use!
 
 untar data.tar.bz2
 run RUNCHPLDEMO.sh and RUNPYDEMO.sh
+
+Notes!
 
 The Python implementation performs a shuffle
 over the training samples prior to running
