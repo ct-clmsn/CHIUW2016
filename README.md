@@ -5,6 +5,9 @@ CHIUW2016
 
 Note:
 
+Apologies in advance if the code in this repository
+is a complete mess.
+
 The code in this repository has been cleaned up to remove
 as much pre-processing of data files as possible.
 
