@@ -1,4 +1,4 @@
-RandomForest
+RandomForest - binary classifier
 
 * random-forest in C++ using OpenMP
   * https://github.com/bjoern-andres/random-forest
