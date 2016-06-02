@@ -17,3 +17,5 @@ have some bugs related to how domains are utilized.
 
 If there are outstanding issues related to the clean up
 please post the issues to github.
+
+Pull Requests are welcome!
