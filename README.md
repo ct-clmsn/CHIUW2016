@@ -1,6 +1,6 @@
 CHIUW2016
 
-* Latent Dirichlet code is in 'lda'
+* Latent Dirichlet Allocation is in 'lda'
 * Stochastic Logistic Regression is in 'logreg'
 * RandomForest can be found under 'rf'
 
